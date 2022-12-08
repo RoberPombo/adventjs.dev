@@ -1,3 +1,5 @@
+"use strict";
+
 function countHours(year, holidays) {
 	return (
 		holidays

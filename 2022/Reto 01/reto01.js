@@ -1,3 +1,5 @@
+"use strict";
+
 function wrapping(gifts) {
 	const wrapGift = (gift) => {
 		const wrappedUpDown = "*".repeat(gift.length + 2);
