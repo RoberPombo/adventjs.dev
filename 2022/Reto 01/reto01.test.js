@@ -1,7 +1,7 @@
 const wrapping = require("./reto01");
 
 describe("Adventjs 2022 - Reto 01 ", () => {
-	it("should return a number", () => {
+	it("should return an array", () => {
 		expect(wrapping(["cat", "game", "socks"])).toStrictEqual(expect.any(Array));
 	});
 
